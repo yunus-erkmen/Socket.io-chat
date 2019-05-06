@@ -27,7 +27,7 @@ $(function () {
             });
 
         } else {
-            alert('Bir kullanıcı adı girmelisin!');
+            alert('Bir kullanıcı adı girmelisiniz!');
         }
 
     });
