@@ -6,7 +6,7 @@ let url = 'mongodb://127.0.0.1/socketchat';
 
 MongoClient.connect(url, function (err, db) {
     if (err) throw err;
-    console.log('MongoDB ye bağlanıldı.');
+    console.log('MongoDB ye bahlanildi.');
 
     
     const socketchat = db.db('socketchat');
